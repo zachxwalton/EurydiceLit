@@ -16,7 +16,7 @@
   position: relative;
   align-items: center;
 }
-.mission-statement-on-home-content {
+.mission-statement-on-home-content1 {
   gap: var(--dl-space-space-oneandhalfunits);
   flex: 1;
   display: flex;
@@ -30,7 +30,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.mission-statement-on-home-content1 {
+.mission-statement-on-home-content2 {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-self: stretch;
@@ -38,6 +38,9 @@
   flex-direction: column;
 }
 .mission-statement-on-home-root-class-name {
+  width: 100%;
+  margin: 0px;
+  align-self: stretch;
   background-color: #a1b5a1;
 }
 @media(max-width: 991px) {

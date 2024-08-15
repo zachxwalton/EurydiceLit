@@ -11,7 +11,7 @@
   max-width: 640px;
   border-radius: var(--dl-radius-radius-radius4);
 }
-.contact-form-content {
+.contact-form-content1 {
   gap: 0;
   flex: 1;
   align-items: stretch;
@@ -23,20 +23,20 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.contact-form-content1 {
+.contact-form-content2 {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-self: stretch;
   align-items: flex-start;
   flex-direction: column;
 }
-.contact-form-input {
+.contact-form-input1 {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   align-self: stretch;
   flex-direction: column;
 }
-.contact-form-input1 {
+.contact-form-input2 {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   align-self: stretch;
@@ -49,12 +49,12 @@
   flex-direction: column;
   justify-content: center;
 }
-.contact-form-checkbox {
+.contact-form-checkbox1 {
   gap: var(--dl-space-space-unit);
   display: flex;
   align-items: center;
 }
-.contact-form-text5 {
+.contact-form-text6 {
   height: auto;
   font-size: 14px;
   font-style: Regular;
@@ -80,7 +80,7 @@
   .contact-form-max-width {
     flex-direction: column;
   }
-  .contact-form-content {
+  .contact-form-content1 {
     width: 100%;
   }
 }

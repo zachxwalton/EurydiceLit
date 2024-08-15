@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
 }
-.issue-one-open-content {
+.issue-one-open-content1 {
   gap: var(--dl-space-space-oneandhalfunits);
   flex: 1;
   display: flex;
@@ -24,7 +24,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.issue-one-open-content1 {
+.issue-one-open-content2 {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-self: stretch;
@@ -57,8 +57,12 @@
 .issue-one-open-fragment {
   display: contents;
 }
-.issue-one-open-text2 {
+.issue-one-open-text3 {
   display: inline-block;
+}
+.issue-one-open-root-class-name {
+  width: 100%;
+  align-self: stretch;
 }
 @media(max-width: 991px) {
   .issue-one-open-max-width {

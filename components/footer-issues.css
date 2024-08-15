@@ -49,13 +49,13 @@
 .footer-issues-link2 {
   text-decoration: none;
 }
-.footer-issues-link3 {
+.footer-issues-link31 {
   text-decoration: none;
 }
-.footer-issues-link4 {
+.footer-issues-link41 {
   text-decoration: none;
 }
-.footer-issues-link5 {
+.footer-issues-link51 {
   text-decoration: none;
 }
 .footer-issues-social-links {
@@ -64,6 +64,18 @@
   flex-grow: 1;
   align-items: center;
   justify-content: flex-end;
+}
+.footer-issues-link1 {
+  display: contents;
+}
+.footer-issues-icon1 {
+  text-decoration: none;
+}
+.footer-issues-link2 {
+  display: contents;
+}
+.footer-issues-icon3 {
+  text-decoration: none;
 }
 .footer-issues-credits {
   gap: var(--dl-space-space-twounits);
@@ -82,26 +94,36 @@
   display: flex;
   align-items: flex-start;
 }
-.footer-issues-fragment {
-  display: contents;
-}
-.footer-issues-link51 {
-  display: inline-block;
-}
 .footer-issues-fragment1 {
   display: contents;
 }
-.footer-issues-link31 {
+.footer-issues-link52 {
   display: inline-block;
 }
 .footer-issues-fragment2 {
   display: contents;
 }
-.footer-issues-link41 {
+.footer-issues-link32 {
+  display: inline-block;
+}
+.footer-issues-fragment3 {
+  display: contents;
+}
+.footer-issues-link42 {
   display: inline-block;
 }
 .footer-issues-root-class-name {
+  width: 100%;
+  align-self: stretch;
   background-color: #FFFFFF;
+}
+@media(max-width: 1600px) {
+  .footer-issues-link1 {
+    text-decoration: none;
+  }
+  .footer-issues-link2 {
+    text-decoration: none;
+  }
 }
 @media(max-width: 991px) {
   .footer-issues-logo {

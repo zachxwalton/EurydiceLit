@@ -11,7 +11,7 @@
   align-items: center;
   flex-direction: column;
 }
-.faq1-text1 {
+.faq1-text2 {
   text-align: center;
 }
 .faq1-list-item1 {
@@ -64,14 +64,14 @@
   font-style: normal;
   font-weight: 600;
 }
-.faq1-content1 {
+.faq1-content2 {
   gap: 16px;
   display: flex;
   align-self: stretch;
   align-items: center;
   flex-direction: column;
 }
-.faq1-text3 {
+.faq1-text4 {
   text-align: center;
 }
 .faq1-container {
@@ -84,7 +84,7 @@
   }
 }
 @media(max-width: 767px) {
-  .faq1-text1 {
+  .faq1-text2 {
     text-align: left;
   }
   .faq1-list {

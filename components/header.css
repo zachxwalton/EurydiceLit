@@ -26,7 +26,7 @@
   display: flex;
   justify-content: space-between;
 }
-.header-links {
+.header-links1 {
   gap: var(--dl-space-space-twounits);
   flex: 1;
   display: flex;
@@ -34,33 +34,45 @@
   flex-direction: row;
   justify-content: center;
 }
-.header-link1 {
+.header-link11 {
   text-decoration: none;
 }
-.header-link2 {
+.header-link21 {
   text-decoration: none;
 }
-.header-link3 {
+.header-link31 {
   text-decoration: none;
 }
-.header-link4 {
+.header-link41 {
   text-decoration: none;
 }
-.header-link5 {
+.header-link51 {
   fill: var(--dl-color-theme-primary2);
   color: var(--dl-color-theme-primary2);
   text-decoration: none;
 }
-.header-icon-group {
+.header-icon-group1 {
   gap: var(--dl-space-space-twounits);
   display: flex;
   align-items: center;
   margin-left: var(--dl-space-space-twounits);
 }
+.header-link1 {
+  display: contents;
+}
+.header-icon10 {
+  text-decoration: none;
+}
+.header-link2 {
+  display: contents;
+}
+.header-icon12 {
+  text-decoration: none;
+}
 .header-burger-menu {
   display: none;
 }
-.header-icon04 {
+.header-icon14 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
@@ -97,11 +109,11 @@
   align-items: center;
   justify-content: center;
 }
-.header-icon06 {
+.header-icon16 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.header-links1 {
+.header-links2 {
   gap: var(--dl-space-space-unit);
   flex: 0 0 auto;
   display: flex;
@@ -109,27 +121,38 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.header-icon-group1 {
+.header-icon-group2 {
   gap: var(--dl-space-space-twounits);
   display: flex;
 }
 .header-root-class-name {
   fill: var(--dl-color-theme-neutral-dark);
   color: #97dbae;
+  width: 100%;
+  align-self: stretch;
   background-color: var(--dl-color-theme-neutral-light);
 }
 .header-root-class-name1 {
+  width: 100%;
+  align-self: stretch;
   background-color: var(--dl-color-theme-neutral-light);
 }
 .header-root-class-name2 {
+  width: 100%;
+  align-self: stretch;
   background-color: var(--dl-color-theme-neutral-light);
 }
 .header-root-class-name3 {
   fill: var(--dl-color-theme-neutral-dark);
   color: #97dbae;
+  width: 100%;
+  align-self: stretch;
   background-color: var(--dl-color-theme-neutral-light);
 }
-
+.header-root-class-name4 {
+  width: 100%;
+  align-self: stretch;
+}
 @media(max-width: 767px) {
   .header-navbar-interactive {
     padding-left: var(--dl-space-space-twounits);

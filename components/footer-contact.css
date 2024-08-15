@@ -65,6 +65,18 @@
   align-items: center;
   justify-content: flex-end;
 }
+.footer-contact-link1 {
+  display: contents;
+}
+.footer-contact-icon1 {
+  text-decoration: none;
+}
+.footer-contact-link2 {
+  display: contents;
+}
+.footer-contact-icon3 {
+  text-decoration: none;
+}
 .footer-contact-credits {
   gap: var(--dl-space-space-twounits);
   display: flex;
@@ -85,6 +97,8 @@
 .footer-contact-root-class-name {
   fill: var(--dl-color-theme-neutral-dark);
   color: var(--dl-color-theme-neutral-dark);
+  width: 100%;
+  align-self: stretch;
   background-color: #FFFFFF;
 }
 @media(max-width: 991px) {

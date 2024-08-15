@@ -65,6 +65,18 @@
   align-items: center;
   justify-content: flex-end;
 }
+.footer-about-link1 {
+  display: contents;
+}
+.footer-about-icon1 {
+  text-decoration: none;
+}
+.footer-about-link2 {
+  display: contents;
+}
+.footer-about-icon3 {
+  text-decoration: none;
+}
 .footer-about-credits {
   gap: var(--dl-space-space-twounits);
   display: flex;
@@ -83,6 +95,8 @@
   align-items: flex-start;
 }
 .footer-about-root-class-name {
+  width: 100%;
+  align-self: stretch;
   background-color: #FFFFFF;
 }
 @media(max-width: 991px) {

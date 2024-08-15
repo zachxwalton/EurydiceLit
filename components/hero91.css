@@ -37,10 +37,10 @@
   align-items: center;
   flex-direction: column;
 }
-.hero91-text {
+.hero91-text1 {
   text-align: center;
 }
-.hero91-text1 {
+.hero91-text2 {
   text-align: center;
 }
 .hero91-actions {
@@ -50,10 +50,10 @@
   align-items: flex-start;
 }
 @media(max-width: 991px) {
-  .hero91-text {
+  .hero91-text1 {
     text-align: center;
   }
-  .hero91-text1 {
+  .hero91-text2 {
     text-align: center;
   }
 }

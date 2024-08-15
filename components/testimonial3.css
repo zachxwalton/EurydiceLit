@@ -1,4 +1,4 @@
-.testimonial3-text {
+.testimonial3-text1 {
   align-self: flex-end;
   font-style: normal;
   font-family: "Merriweather";
@@ -37,7 +37,7 @@
 .testimonial3-fragment {
   display: contents;
 }
-.testimonial3-text2 {
+.testimonial3-text3 {
   display: inline-block;
 }
 @media(max-width: 991px) {
@@ -58,7 +58,7 @@
   .testimonial3-max-width {
     padding: var(--dl-space-space-oneandhalfunits);
   }
-  .testimonial3-text2 {
+  .testimonial3-text3 {
     text-align: center;
   }
 }

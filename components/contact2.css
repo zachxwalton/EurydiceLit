@@ -27,19 +27,21 @@
   align-items: center;
   flex-direction: column;
 }
-.contact2-fragment {
-  display: contents;
-}
-.contact2-text2 {
-  display: inline-block;
-}
 .contact2-fragment1 {
   display: contents;
 }
 .contact2-text3 {
   display: inline-block;
+}
+.contact2-fragment2 {
+  display: contents;
+}
+.contact2-text4 {
+  display: inline-block;
   text-align: center;
 }
 .contact2-root-class-name {
+  width: 100%;
+  align-self: stretch;
   background-color: var(--dl-color-theme-primary1);
 }

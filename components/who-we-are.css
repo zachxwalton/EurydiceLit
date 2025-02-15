@@ -6,6 +6,7 @@
   align-items: flex-start;
   justify-content: flex-end;
 }
+ 
 .who-we-are-image {
   top: 0px;
   left: 0px;
@@ -14,18 +15,21 @@
   position: absolute;
   object-fit: cover;
 }
+ 
 .who-we-are-container1 {
   width: 100%;
   display: flex;
   align-items: flex-start;
   justify-content: flex-end;
 }
+ 
 .who-we-are-max-width {
   display: flex;
   align-self: center;
   align-items: center;
   justify-content: flex-start;
 }
+ 
 .who-we-are-column {
   gap: 24px;
   width: auto;
@@ -36,6 +40,7 @@
   flex-shrink: 0;
   flex-direction: column;
 }
+ 
 .who-we-are-content {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
@@ -49,15 +54,18 @@
   animation-iteration-count: 1;
   animation-timing-function: ease;
 }
+ 
 .who-we-are-actions {
   gap: var(--dl-space-space-unit);
   display: flex;
   align-items: flex-start;
 }
+ 
 .who-we-are-container2 {
   display: flex;
   align-items: flex-start;
 }
+ 
 .who-we-are-button {
   fill: var(--dl-color-theme-secondary2);
   color: var(--dl-color-theme-secondary2);
@@ -70,11 +78,13 @@
   justify-content: center;
   background-color: var(--dl-color-theme-neutral-light);
 }
+ 
 .who-we-are-container3 {
   border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   align-items: flex-start;
 }
+ 
 @media(max-width: 767px) {
   .who-we-are-header5 {
     justify-content: center;
@@ -97,6 +107,7 @@
     justify-content: center;
   }
 }
+ 
 @media(max-width: 479px) {
   .who-we-are-actions {
     flex-direction: column;

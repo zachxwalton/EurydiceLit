@@ -11,12 +11,14 @@
   flex-direction: column;
   justify-content: center;
 }
+ 
 .footer-issues-max-width {
   gap: var(--dl-space-space-threeunits);
   display: flex;
   align-items: center;
   flex-direction: column;
 }
+ 
 .footer-issues-content {
   gap: 32px;
   display: flex;
@@ -25,6 +27,7 @@
   flex-shrink: 0;
   justify-content: center;
 }
+ 
 .footer-issues-logo {
   gap: 24px;
   width: auto;
@@ -35,29 +38,25 @@
   flex-shrink: 0;
   flex-direction: column;
 }
+ 
 .footer-issues-image1 {
   height: 2rem;
 }
+ 
 .footer-issues-links {
   gap: var(--dl-space-space-twounits);
   display: flex;
   align-items: flex-start;
 }
+ 
 .footer-issues-link1 {
   text-decoration: none;
 }
+ 
 .footer-issues-link2 {
   text-decoration: none;
 }
-.footer-issues-link31 {
-  text-decoration: none;
-}
-.footer-issues-link41 {
-  text-decoration: none;
-}
-.footer-issues-link51 {
-  text-decoration: none;
-}
+ 
 .footer-issues-social-links {
   gap: var(--dl-space-space-unit);
   display: flex;
@@ -65,18 +64,23 @@
   align-items: center;
   justify-content: flex-end;
 }
-.footer-issues-link1 {
+ 
+.footer-issues-link6 {
   display: contents;
 }
+ 
 .footer-issues-icon1 {
   text-decoration: none;
 }
-.footer-issues-link2 {
+ 
+.footer-issues-link7 {
   display: contents;
 }
+ 
 .footer-issues-icon3 {
   text-decoration: none;
 }
+ 
 .footer-issues-credits {
   gap: var(--dl-space-space-twounits);
   display: flex;
@@ -84,39 +88,49 @@
   align-items: center;
   flex-direction: column;
 }
+ 
 .footer-issues-row {
   gap: 24px;
   display: flex;
   align-items: flex-start;
 }
+ 
 .footer-issues-footer-links {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-items: flex-start;
 }
+ 
 .footer-issues-fragment1 {
   display: contents;
 }
+ 
 .footer-issues-link52 {
   display: inline-block;
 }
+ 
 .footer-issues-fragment2 {
   display: contents;
 }
+ 
 .footer-issues-link32 {
   display: inline-block;
 }
+ 
 .footer-issues-fragment3 {
   display: contents;
 }
+ 
 .footer-issues-link42 {
   display: inline-block;
 }
-.footer-issues-root-class-name {
+ 
+.footer-issuesroot-class-name {
   width: 100%;
   align-self: stretch;
   background-color: #FFFFFF;
 }
+ 
 @media(max-width: 1600px) {
   .footer-issues-link1 {
     text-decoration: none;
@@ -125,11 +139,13 @@
     text-decoration: none;
   }
 }
+ 
 @media(max-width: 991px) {
   .footer-issues-logo {
     width: auto;
   }
 }
+ 
 @media(max-width: 767px) {
   .footer-issues-content {
     flex-direction: column;
@@ -143,6 +159,7 @@
     justify-content: center;
   }
 }
+ 
 @media(max-width: 479px) {
   .footer-issues-max-width {
     gap: var(--dl-space-space-oneandhalfunits);

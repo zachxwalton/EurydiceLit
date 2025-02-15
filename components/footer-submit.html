@@ -11,7 +11,7 @@
     />
 
     <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
     </style>
     <style data-tag="default-style-sheet">
       html {
@@ -27,7 +27,7 @@
         letter-spacing: normal;
         line-height: 1.15;
         color: var(--dl-color-theme-neutral-dark);
-        background-color: var(--dl-color-theme-neutral-light);
+        background: var(--dl-color-theme-neutral-light);
 
         fill: var(--dl-color-theme-neutral-dark);
       }
@@ -70,7 +70,7 @@
   <body
     ><link rel="stylesheet" href="../style.css" /><div
       ><link href="./footer-submit.css" rel="stylesheet" /><footer
-        class="footer-submit-footer4 thq-section-padding"
+        class="footer-submit-footer4 thq-section-padding footer-submit"
         ><div class="footer-submit-max-width thq-section-max-width"
           ><div class="footer-submit-content"
             ><div class="footer-submit-logo"
@@ -79,33 +79,27 @@
                 src="public/eurydice%20lit%20word-logo%20(1)-1500h.png"
                 class="footer-submit-image1" /></div
             ><div class="footer-submit-links"
-              ><a href="index.html"
+              ><a href="index.html" class="thq-body-small"
                 ><fragment class="footer-submit-fragment3"
-                  ><span class="footer-submit-text5 thq-body-small"
-                    >Home</span
-                  ></fragment
+                  ><span class="footer-submit-text5">Home</span></fragment
                 ></a
-              ><a href="submit.html"
+              ><a href="submit.html" class="thq-body-small"
                 ><fragment class="footer-submit-fragment1"
-                  ><span class="footer-submit-text1 thq-body-small"
+                  ><span class="footer-submit-text1"
                     >Submission Guidelines</span
                   ></fragment
                 ></a
-              ><a href="about.html" class="footer-submit-link3"
+              ><a href="about.html" class="thq-body-small"
                 ><fragment class="footer-submit-fragment2"
-                  ><span class="footer-submit-text2 thq-body-small"
+                  ><span class="footer-submit-text2"
                     ><span>About Us</span><br /></span></fragment></a
-              ><a href="contact.html" class="footer-submit-link4"
+              ><a href="contact.html" class="thq-body-small"
                 ><fragment class="footer-submit-fragment5"
-                  ><span class="footer-submit-text7 thq-body-small"
-                    >Contact Us</span
-                  ></fragment
+                  ><span class="footer-submit-text7">Contact Us</span></fragment
                 ></a
-              ><a href="contact.html" class="footer-submit-link5"
+              ><a href="contact.html" class="thq-body-small"
                 ><fragment class="footer-submit-fragment4"
-                  ><span class="footer-submit-text6 thq-body-small"
-                    >FAQ
-                  </span></fragment
+                  ><span class="footer-submit-text6">FAQ </span></fragment
                 ></a
               ></div
             ><div class="footer-submit-social-links"
@@ -113,7 +107,7 @@
                 href="https://instagram.com/eurydicelitmag/"
                 target="_blank"
                 rel="noreferrer noopener"
-                class="footer-submit-link1"
+                class="footer-submit-link6"
                 ><svg
                   viewBox="0 0 877.7142857142857 1024"
                   class="footer-submit-icon1 thq-icon-small"
@@ -125,7 +119,7 @@
                 href="https://x.com/eurydicelit"
                 target="_blank"
                 rel="noreferrer noopener"
-                class="footer-submit-link2"
+                class="footer-submit-link7"
                 ><svg
                   viewBox="0 0 950.8571428571428 1024"
                   class="footer-submit-icon3 thq-icon-small"
@@ -137,7 +131,7 @@
             ><div class="thq-divider-horizontal"></div
             ><div class="footer-submit-row"
               ><div class="footer-submit-footer-links"
-                ><span class="thq-body-small">© 2024 Eurydice Lit</span></div
+                ><span class="thq-body-small">© 2025 Eurydice Lit</span></div
               ></div
             ></div
           ></div

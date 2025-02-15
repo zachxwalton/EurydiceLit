@@ -6,6 +6,7 @@
   align-items: center;
   flex-direction: column;
 }
+ 
 .content-list2-max-width {
   width: 100%;
   display: flex;
@@ -13,76 +14,104 @@
   align-items: center;
   flex-direction: column;
 }
+ 
 .content-list2-content1 {
   align-self: stretch;
   align-items: flex-start;
 }
+ 
 .content-list2-li1 {
   align-items: flex-start;
 }
+ 
+.content-list2-heading1 {
+  align-self: flex-start;
+}
+ 
 .content-list2-ul2 {
   align-items: flex-start;
   padding-left: var(--dl-space-space-fiveunits);
 }
+ 
 .content-list2-content2 {
   align-self: stretch;
   align-items: flex-start;
 }
+ 
 .content-list2-li5 {
   align-items: flex-start;
 }
+ 
+.content-list2-heading7 {
+  align-self: flex-start;
+}
+ 
 .content-list2-ul4 {
   align-items: flex-start;
   padding-left: var(--dl-space-space-fiveunits);
 }
+ 
 .content-list2-fragment1 {
   display: contents;
 }
+ 
 .content-list2-text10 {
   display: inline-block;
 }
+ 
 .content-list2-fragment2 {
   display: contents;
 }
+ 
 .content-list2-text13 {
   display: inline-block;
 }
+ 
 .content-list2-fragment3 {
   display: contents;
 }
+ 
 .content-list2-text14 {
   display: inline-block;
 }
+ 
 .content-list2-fragment4 {
   display: contents;
 }
+ 
 .content-list2-text26 {
   display: inline-block;
-  align-self: flex-start;
 }
+ 
 .content-list2-fragment5 {
   display: contents;
 }
+ 
 .content-list2-text29 {
   display: inline-block;
-  align-self: flex-start;
 }
+ 
 .content-list2-fragment6 {
   display: contents;
 }
+ 
 .content-list2-text30 {
   display: inline-block;
 }
+ 
 .content-list2-fragment7 {
   display: contents;
 }
+ 
 .content-list2-text33 {
   display: inline-block;
 }
-.content-list2-root-class-name {
+ 
+.content-list2root-class-name {
   width: 100%;
   align-self: stretch;
 }
+ 
 @media(max-width: 767px) {
   .content-list2-ul2 {
     padding-left: var(--dl-space-space-threeunits);
@@ -91,6 +120,7 @@
     padding-left: var(--dl-space-space-threeunits);
   }
 }
+ 
 @media(max-width: 479px) {
   .content-list2-ul2 {
     padding-left: var(--dl-space-space-oneandhalfunits);

@@ -10,7 +10,7 @@
   width: auto;
   height: auto;
   max-width: 640px;
-  border-radius: var(--dl-radius-radius-radius4);
+  border-radius: var(--dl-layout-radius-radius4);
 }
  
 .contact-form-content1 {
@@ -20,7 +20,7 @@
 }
  
 .contact-form-section-title {
-  gap: var(--dl-space-space-unit);
+  gap: var(--dl-layout-space-unit);
   display: flex;
   align-self: stretch;
   align-items: flex-start;
@@ -28,7 +28,7 @@
 }
  
 .contact-form-content2 {
-  gap: var(--dl-space-space-oneandhalfunits);
+  gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
   align-self: stretch;
   align-items: flex-start;
@@ -36,21 +36,21 @@
 }
  
 .contact-form-input1 {
-  gap: var(--dl-space-space-halfunit);
+  gap: var(--dl-layout-space-halfunit);
   display: flex;
   align-self: stretch;
   flex-direction: column;
 }
  
 .contact-form-input2 {
-  gap: var(--dl-space-space-halfunit);
+  gap: var(--dl-layout-space-halfunit);
   display: flex;
   align-self: stretch;
   flex-direction: column;
 }
  
 .contact-form-container {
-  gap: var(--dl-space-space-halfunit);
+  gap: var(--dl-layout-space-halfunit);
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -58,7 +58,7 @@
 }
  
 .contact-form-checkbox1 {
-  gap: var(--dl-space-space-unit);
+  gap: var(--dl-layout-space-unit);
   display: flex;
   align-items: center;
 }

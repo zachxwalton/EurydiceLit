@@ -7,14 +7,14 @@
 }
  
 .contact2-max-width {
-  gap: var(--dl-space-space-twounits);
+  gap: var(--dl-layout-space-twounits);
   display: flex;
   align-items: center;
   flex-direction: column;
 }
  
 .contact2-section-title {
-  gap: var(--dl-space-space-unit);
+  gap: var(--dl-layout-space-unit);
   width: auto;
   display: flex;
   max-width: 800px;
@@ -24,7 +24,7 @@
 }
  
 .contact2-content {
-  gap: var(--dl-space-space-oneandhalfunits);
+  gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
   align-self: stretch;
   align-items: center;

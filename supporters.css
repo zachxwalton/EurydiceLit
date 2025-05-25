@@ -312,12 +312,17 @@
   border-style: solid;
   border-width: 1px;
   justify-content: center;
+  text-decoration: none;
   background-color: var(--dl-color-theme-primary1);
 }
  
 .hero2-container3 {
   display: flex;
   align-items: flex-start;
+}
+ 
+.hero2-button2 {
+  text-decoration: none;
 }
  
 .supporters-fragment1 {

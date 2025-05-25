@@ -7,7 +7,7 @@
 }
  
 .faq-max-width {
-  gap: var(--dl-space-space-fiveunits);
+  gap: var(--dl-layout-space-fiveunits);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -129,7 +129,7 @@
  
 @media(max-width: 991px) {
   .faq-max-width {
-    gap: var(--dl-space-space-oneandhalfunits);
+    gap: var(--dl-layout-space-oneandhalfunits);
   }
 }
  
@@ -138,6 +138,6 @@
     text-align: left;
   }
   .faq-list {
-    gap: var(--dl-space-space-twounits);
+    gap: var(--dl-layout-space-twounits);
   }
 }

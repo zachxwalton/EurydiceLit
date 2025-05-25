@@ -8,7 +8,7 @@
 }
  
 .steps2-max-width {
-  gap: var(--dl-space-space-fourunits);
+  gap: var(--dl-layout-space-fourunits);
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -20,7 +20,7 @@
 }
  
 .steps2-section-header {
-  gap: var(--dl-space-space-oneandhalfunits);
+  gap: var(--dl-layout-space-oneandhalfunits);
   top: 10%;
   display: flex;
   position: sticky;
@@ -29,7 +29,7 @@
 }
  
 .steps2-actions {
-  gap: var(--dl-space-space-unit);
+  gap: var(--dl-layout-space-unit);
   display: flex;
   align-items: flex-start;
 }
@@ -50,7 +50,7 @@
   top: 10%;
   position: sticky;
   transform: rotate(-2deg);
-  margin-bottom: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-layout-space-twounits);
   background-color: var(--dl-color-theme-accent1);
 }
  
@@ -62,7 +62,7 @@
   top: 10%;
   position: sticky;
   transform: rotate(2deg);
-  margin-bottom: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-layout-space-twounits);
   background-color: #a1b5a1;
 }
  
@@ -74,7 +74,7 @@
   top: 10%;
   position: sticky;
   transform: rotate(-2deg);
-  margin-bottom: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-layout-space-twounits);
   background-color: var(--dl-color-theme-accent1);
 }
  
@@ -118,7 +118,7 @@
 @media(max-width: 767px) {
   .steps2-section-header {
     position: static;
-    margin-bottom: var(--dl-space-space-twounits);
+    margin-bottom: var(--dl-layout-space-twounits);
   }
   .steps2-actions {
     width: 100%;

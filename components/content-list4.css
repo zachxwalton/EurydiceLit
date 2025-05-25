@@ -10,7 +10,7 @@
 .content-list4-max-width {
   width: 100%;
   display: flex;
-  max-width: var(--dl-size-size-maxwidth);
+  max-width: var(--dl-layout-size-maxwidth);
   align-items: center;
   flex-direction: column;
 }
@@ -34,7 +34,7 @@
 }
  
 .content-list4-content71 {
-  margin-bottom: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-layout-space-halfunit);
 }
  
 .content-list4-content2 {
@@ -52,12 +52,6 @@
  
 .content-list4-content72 {
   display: inline-block;
-}
- 
-.content-list4root-class-name {
-  height: auto;
-  align-self: stretch;
-  background-color: #a1b5a1;
 }
  
 @media(max-width: 1600px) {

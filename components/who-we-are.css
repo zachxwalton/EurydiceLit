@@ -42,7 +42,7 @@
 }
  
 .who-we-are-content {
-  gap: var(--dl-space-space-oneandhalfunits);
+  gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
   align-self: stretch;
   align-items: flex-start;
@@ -56,7 +56,7 @@
 }
  
 .who-we-are-actions {
-  gap: var(--dl-space-space-unit);
+  gap: var(--dl-layout-space-unit);
   display: flex;
   align-items: flex-start;
 }

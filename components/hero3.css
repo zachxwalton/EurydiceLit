@@ -57,6 +57,7 @@
 .hero3root-class-name {
   width: 100%;
   align-self: stretch;
+  background-color: #D9D9D9;
 }
  
 @media(max-width: 1600px) {

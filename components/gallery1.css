@@ -1,5 +1,5 @@
 .gallery1-gallery3 {
-  gap: var(--dl-space-space-fiveunits);
+  gap: var(--dl-layout-space-fiveunits);
   width: 100%;
   height: auto;
   display: flex;
@@ -11,7 +11,7 @@
 }
  
 .gallery1-max-width {
-  gap: var(--dl-space-space-twounits);
+  gap: var(--dl-layout-space-twounits);
   width: 100%;
   display: flex;
   align-items: center;
@@ -19,7 +19,7 @@
 }
  
 .gallery1-section-title {
-  gap: var(--dl-space-space-oneandhalfunits);
+  gap: var(--dl-layout-space-oneandhalfunits);
   width: auto;
   display: flex;
   max-width: 800px;
@@ -37,7 +37,7 @@
 }
  
 .gallery1-content {
-  gap: var(--dl-space-space-twounits);
+  gap: var(--dl-layout-space-twounits);
   width: 100%;
   display: flex;
   align-self: stretch;

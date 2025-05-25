@@ -7,14 +7,14 @@
 }
  
 .contact4-max-width {
-  gap: var(--dl-space-space-twounits);
+  gap: var(--dl-layout-space-twounits);
   display: flex;
   align-items: center;
   flex-direction: column;
 }
  
 .contact4-section-title {
-  gap: var(--dl-space-space-unit);
+  gap: var(--dl-layout-space-unit);
   width: auto;
   display: flex;
   max-width: 800px;
@@ -25,7 +25,7 @@
 }
  
 .contact4-content1 {
-  gap: var(--dl-space-space-halfunit);
+  gap: var(--dl-layout-space-halfunit);
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -40,7 +40,7 @@
 }
  
 .contact4-content2 {
-  gap: var(--dl-space-space-oneandhalfunits);
+  gap: var(--dl-layout-space-oneandhalfunits);
   flex: 1;
   width: auto;
   display: flex;
@@ -51,7 +51,7 @@
 }
  
 .contact4-contact-info1 {
-  gap: var(--dl-space-space-oneandhalfunits);
+  gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
   align-self: stretch;
   align-items: center;
@@ -82,7 +82,7 @@
 }
  
 .contact4-content4 {
-  gap: var(--dl-space-space-oneandhalfunits);
+  gap: var(--dl-layout-space-oneandhalfunits);
   flex: 1;
   width: auto;
   display: flex;
@@ -96,7 +96,7 @@
 }
  
 .contact4-contact-info2 {
-  gap: var(--dl-space-space-oneandhalfunits);
+  gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
   align-self: stretch;
   align-items: center;
@@ -126,7 +126,7 @@
 }
  
 .contact4-content6 {
-  gap: var(--dl-space-space-oneandhalfunits);
+  gap: var(--dl-layout-space-oneandhalfunits);
   flex: 1;
   width: auto;
   display: flex;
@@ -140,7 +140,7 @@
 }
  
 .contact4-contact-info3 {
-  gap: var(--dl-space-space-oneandhalfunits);
+  gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
   align-self: stretch;
   align-items: center;

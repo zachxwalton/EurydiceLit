@@ -3,7 +3,7 @@
   width: 100%;
   height: auto;
   display: flex;
-  padding: var(--dl-space-space-fiveunits);
+  padding: var(--dl-layout-space-fiveunits);
   overflow: hidden;
   position: relative;
   align-items: center;
@@ -13,7 +13,7 @@
 }
  
 .footer-about-max-width {
-  gap: var(--dl-space-space-threeunits);
+  gap: var(--dl-layout-space-threeunits);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -44,7 +44,7 @@
 }
  
 .footer-about-links {
-  gap: var(--dl-space-space-twounits);
+  gap: var(--dl-layout-space-twounits);
   display: flex;
   align-items: flex-start;
 }
@@ -70,7 +70,7 @@
 }
  
 .footer-about-social-links {
-  gap: var(--dl-space-space-unit);
+  gap: var(--dl-layout-space-unit);
   display: flex;
   flex-grow: 1;
   align-items: center;
@@ -94,7 +94,7 @@
 }
  
 .footer-about-credits {
-  gap: var(--dl-space-space-twounits);
+  gap: var(--dl-layout-space-twounits);
   display: flex;
   align-self: stretch;
   align-items: center;
@@ -108,7 +108,7 @@
 }
  
 .footer-about-footer-links {
-  gap: var(--dl-space-space-oneandhalfunits);
+  gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
   align-items: flex-start;
 }
@@ -141,7 +141,7 @@
  
 @media(max-width: 479px) {
   .footer-about-max-width {
-    gap: var(--dl-space-space-oneandhalfunits);
+    gap: var(--dl-layout-space-oneandhalfunits);
   }
   .footer-about-content {
     width: 100%;

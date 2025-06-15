@@ -11,7 +11,7 @@
   object-fit: cover;
 }
  
-.hero9-container {
+.hero9-container1 {
   top: 0px;
   left: 0px;
   right: 0px;
@@ -50,10 +50,13 @@
   text-align: center;
 }
  
-.hero9-actions {
-  gap: var(--dl-layout-space-unit);
+.hero9-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
   display: flex;
   align-items: flex-start;
+  justify-content: center;
 }
  
 .hero9-button1 {
@@ -79,6 +82,13 @@
   text-align: center;
 }
  
+.hero9-actions {
+  gap: var(--dl-layout-space-unit);
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+}
+ 
 .hero9root-class-name {
   fill: var(--dl-color-theme-neutral-dark);
   flex: 1;
@@ -89,6 +99,10 @@
 }
  
 @media(max-width: 1600px) {
+  .hero9-button2 {
+    fill: var(--dl-color-theme-primary1);
+    color: var(--dl-color-theme-primary1);
+  }
   .hero9root-class-name {
     flex: 1;
     width: auto;
@@ -105,15 +119,25 @@
   }
 }
  
+@media(max-width: 767px) {
+  .hero9-button1 {
+    text-align: center;
+  }
+  .hero9-button2 {
+    text-align: center;
+  }
+}
+ 
 @media(max-width: 479px) {
+  .hero9-button1 {
+    width: 139px;
+    text-align: center;
+  }
+  .hero9-button2 {
+    width: 139px;
+  }
   .hero9-actions {
     width: 100%;
     flex-direction: column;
-  }
-  .hero9-button1 {
-    width: 100%;
-  }
-  .hero9-button2 {
-    width: 100%;
   }
 }

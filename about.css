@@ -333,6 +333,11 @@
   height: 400px;
 }
  
+.hero11-placeholder-image2 {
+  width: 400px;
+  height: 400px;
+}
+ 
 .hero11-row2 {
   gap: var(--dl-layout-space-oneandhalfunits);
   flex: 1;
@@ -340,12 +345,6 @@
   display: flex;
   z-index: 1;
   align-items: flex-start;
-}
- 
-.hero11-placeholder-image2 {
-  width: 400px;
-  height: 400px;
-  align-self: stretch;
 }
  
 .hero11-placeholder-image3 {
@@ -361,6 +360,18 @@
 }
  
 .hero11-placeholder-image5 {
+  width: 400px;
+  height: 400px;
+  align-self: stretch;
+}
+ 
+.hero11-placeholder-image6 {
+  width: 400px;
+  height: 400px;
+  align-self: stretch;
+}
+ 
+.hero11-placeholder-image7 {
   width: 400px;
   height: 400px;
   align-self: stretch;
@@ -421,6 +432,9 @@
     flex-direction: column;
   }
   .hero11-placeholder-image1 {
+    width: 100%;
+  }
+  .hero11-placeholder-image2 {
     width: 100%;
   }
   .hero11-row2 {

@@ -99,6 +99,10 @@
 }
  
 @media(max-width: 1600px) {
+  .hero9-button1 {
+    fill: var(--dl-color-theme-accent1);
+    color: var(--dl-color-theme-accent1);
+  }
   .hero9-button2 {
     fill: var(--dl-color-theme-primary1);
     color: var(--dl-color-theme-primary1);
